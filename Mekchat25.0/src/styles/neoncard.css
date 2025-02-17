@@ -1,9 +1,6 @@
 /* From Uiverse.io by StealthWorm */ 
 
 
-body{
-  background-color: white;
-}
 .card-border {
     z-index: 0;
     position: relative;
@@ -236,7 +233,7 @@ body{
 
   .event-section {
     padding: 30px 100px;
-    background-color: #00000044;
+    background: linear-gradient(180deg, #000814, #000814);
   }
   
   .event-section .event-heading {

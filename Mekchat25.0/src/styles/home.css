@@ -258,6 +258,7 @@ font-family: "space mono", sans-serif;
 @media (max-width: 768px) {
 
     .home-bg {
+        background: url(../assets/figbg5.png);
         min-height: auto; /* Allow content to dictate height */
     }
 
