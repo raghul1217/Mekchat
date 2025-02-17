@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { FaTimes } from "react-icons/fa";
 import EventSection from "../components/EventSection";
+import mech from "../assets/mekchat-logo.png"
 
 const Home = () => {
   const [number, setNumber] = useState(20);
@@ -71,6 +72,7 @@ const Home = () => {
         
         <div className="home-container">
         <div className="home-content1">
+              <img src={mech} alt="logo" />
               <p>
               A national level technical symposium will be conducted by
               Department of Computer science and Engineering, Government College
