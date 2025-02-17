@@ -263,7 +263,8 @@ font-family: "space mono", sans-serif;
 
     .home-bg {
         background: url(../assets/figbg7.png);
-        min-height: auto; /* Allow content to dictate height */
+        min-height: auto; 
+        height: 650px;/* Allow content to dictate height */
     }
 
     .home-container {
