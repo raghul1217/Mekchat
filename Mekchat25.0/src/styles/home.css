@@ -9,7 +9,7 @@
   }
 
 .home-bg {
-    background: url(../assets/bg20.png);
+    background: url(../assets/figbg8.png);
     /* background-color: #000814; */
     background-size: cover;
     background-position: center;
@@ -262,7 +262,9 @@ font-family: "space mono", sans-serif;
 @media (max-width: 768px) {
 
     .home-bg {
-        background: url(../assets/figbg7.png);
+        background: url(../assets/figbg9.png);
+        background-position: center;
+        background-size: cover;
         min-height: auto; 
         height: 650px;/* Allow content to dictate height */
     }

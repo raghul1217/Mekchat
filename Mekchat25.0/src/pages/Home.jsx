@@ -84,7 +84,7 @@ const Home = () => {
             </div>
 
             <div className="home-btn">
-              <Link to="/register" id="neon-btn">
+              <Link to="/mechregister" id="neon-btn">
                 <button className="register-btn">REGISTER</button>
               </Link>
               <p>Online registration closed!</p>

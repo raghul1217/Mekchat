@@ -1,0 +1,33 @@
+.mr-container{
+    background: url(../assets/figbg10.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+@media(max-width: 480px){
+    .mr-container{
+        background: url(../assets/figbg10.png);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        padding: 20px 10px;
+        
+        padding-top: 90px;
+        }
+
+    .mr-main-head{
+        font-size: 24px;
+        font-family: "Alphacentauri";
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .mr-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+}

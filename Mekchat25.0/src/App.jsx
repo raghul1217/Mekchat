@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import EventDetail from './components/EventDetail';
 import Footer from "./components/Footer";
 import Payment from "./components/Payment";
+import MechRegiser from "./components/MechRegiser";
 
 export default function App() {
   return (
@@ -20,12 +21,7 @@ export default function App() {
       <ToastContainer />
       <Router>
         <Routes>
-          <Route element={<ProtectedRoute />}>
-            {/* Protected routes */}
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/payment" element={<Payment />} />
-             {/* Protect Payment */}
-          </Route>
+          
 
           {/* Public routes */}
           <Route path="/" element={<Home />} />
@@ -35,6 +31,8 @@ export default function App() {
           <Route path="/rules" element={<Rules />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/event/:id" element={<EventDetail />} />
+          <Route path="/mechregister" element={<MechRegiser/>} />
+
         </Routes>
       </Router>
     </>
