@@ -286,7 +286,7 @@ font-family: "space mono", sans-serif;
         padding: 20px 10px; /* Reduce padding */
         min-height: 100vh;
         padding-top: 0; 
-        margin-top: 0;/* Allow content to fill screen */
+        margin-top: -20px;/* Allow content to fill screen */
     }
 
     .home-container .home-content1 img {
