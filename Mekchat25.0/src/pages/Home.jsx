@@ -108,7 +108,7 @@ const Home = () => {
             </p>
             <div className="home-date-container">
               <h3 className="home-date s-home-date">Slated to happen on</h3>
-              <h3 className="home-date">March-03&04 2025</h3>
+              <h3 className="home-date">March-03 & 04 2025</h3>
             </div>
 
             <div className="home-btn">

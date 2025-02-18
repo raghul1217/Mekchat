@@ -16,10 +16,10 @@ const EventSection = () => {
   ];
 
   const nonTechEvents = [
-    { id: 1, description: 'Non-Tech Event 1', heading: 'Meme-Mania' },
-    { id: 2, description: 'Non-Tech Event 2', heading: 'Pixelate Mech' },
-    { id: 3, description: 'Non-Tech Event 3', heading: 'Poster Making' },
-    { id: 4, description: 'Non-Tech Event 4', heading: 'Treasure Hunt' },
+    { id: 1, description: 'Participants create memes based on college or engineering student scenarios, with the best memes selected by the jury.', heading: 'Meme-Mania' },
+    { id: 2, description: 'Participants submit raw, unedited photos related to mechanical engineering, showcasing their photography skills; editing leads to disqualification.', heading: 'Pixelate Mech' },
+    { id: 3, description: 'Participants create a poster on "Current Trends in Mechanical Engineering" using their preferred software (e.g., Hybrid Vehicles, IoT).', heading: 'Poster Making' },
+    { id: 4, description: 'Participants are split into teams and they are given an initial clue. Solving the chain of clues will lead their team to the final prize.', heading: 'Treasure Hunt' },
   ];
 
   return (
