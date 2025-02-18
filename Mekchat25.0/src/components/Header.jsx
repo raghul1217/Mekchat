@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/header.css';
 import progenilogo2 from '../assets/progenilogo2.png';
+import mech from "../assets/mekchat-logo.png"
 
 function Header() {
     const navigate = useNavigate();
@@ -36,8 +37,8 @@ function Header() {
             <div className="header-container">
                 <nav className="navbar">
                     <div className='brand'>
-                        <img src={progenilogo2} alt="" className='navbar-head-progeni' />
-                        <span className="logo1">Progen'i25</span>
+                        <img src={mech} alt="" className='navbar-head-progeni' />
+                        {/* <span className="logo1">Meckchat25</span> */}
                     </div>
                     <div className="menu-icon" onClick={toggleMenu}>
                         {menuOpen ? '\u2715' : '\u2630'}
