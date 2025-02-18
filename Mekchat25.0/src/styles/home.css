@@ -274,7 +274,8 @@ font-family: "space mono", sans-serif;
     }
 
     .home-content1{
-        margin-top: 24px;
+        /* margin-top: 24px; */
+        padding: 0;
     }
 
     .home-container {
@@ -284,7 +285,8 @@ font-family: "space mono", sans-serif;
         flex-direction: column; /* Stack elements vertically */
         padding: 20px 10px; /* Reduce padding */
         min-height: 100vh;
-        margin-top: 10px; /* Allow content to fill screen */
+        padding-top: 0; 
+        margin-top: 0;/* Allow content to fill screen */
     }
 
     .home-container .home-content1 img {
