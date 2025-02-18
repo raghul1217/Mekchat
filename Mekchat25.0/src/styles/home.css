@@ -9,7 +9,7 @@
   }
 
 .home-bg {
-    background: url(../assets/figbg8.png);
+    background: url(../assets/bg23.png);
     /* background-color: #000814; */
     background-size: cover;
     background-position: center;
@@ -61,8 +61,8 @@
   
 
 .home-container .home-content1 img {
-    width: 150px;
-    height: 160px;
+    width: 350px;
+    height: 200px;
 }
 
 .home-content1 {
@@ -72,7 +72,6 @@
     flex-direction: column;
     flex: 2;
     gap: 20px;
-    margin-top: 80px;
 }
 
 .home-content1 p {

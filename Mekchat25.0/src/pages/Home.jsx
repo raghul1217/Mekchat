@@ -65,6 +65,34 @@ const Home = () => {
     setShowNotification(false);
   };
 
+
+
+
+  const [timeLeft, setTimeLeft] = useState("");
+
+  useEffect(() => {
+    const targetDate = new Date('2025-03-02T23:59:59'); // March 2, 11:59 PM
+
+    const interval = setInterval(() => {
+      const now = new Date();
+      const difference = targetDate - now;
+
+      if (difference <= 0) {
+        clearInterval(interval);
+        setTimeLeft("Registration Closed");
+      } else {
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        setTimeLeft(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <div className="home-bg">
@@ -75,7 +103,7 @@ const Home = () => {
               <img src={mech} alt="logo" />
               <p>
               A national level technical symposium will be conducted by
-              Department of Computer science and Engineering, Government College
+              Department of Mechanical Engineering, Government College
               of Engineering, Salem.
             </p>
             <div className="home-date-container">
@@ -84,12 +112,17 @@ const Home = () => {
             </div>
 
             <div className="home-btn">
-              <Link to="/mechregister" id="neon-btn">
-                <button className="register-btn">REGISTER</button>
-              </Link>
-              <p>Online registration closed!</p>
-              <p>Onspot registration - ₹250/-</p>
-            </div>
+      <div className="timer">{timeLeft}</div>
+      {timeLeft !== "Registration Closed" ? (
+        <Link to="/mechregister" id="neon-btn">
+          <button className="register-btn">REGISTER</button>
+        </Link>
+      ) : (
+        <button className="register-btn" disabled>
+          Registration Closed
+        </button>
+      )}
+    </div>
           </div>
         {/* <div className="home-content2">
           </div> */}

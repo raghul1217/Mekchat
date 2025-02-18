@@ -5,14 +5,14 @@ import '../styles/neoncard.css';
 const EventSection = () => {
   const techEvents = [
     { id: 1, description: 'Participants must present their PPTs to the juries within 5 minutes. They can choose to present in one stream only: Thermal, Design, or Manufacturing.', heading: 'Paper Presentation' },
-    { id: 2, description: 'Tech Event 2', heading: 'Tech Quiz' },
-    { id: 3, description: 'Tech Event 3', heading: 'Spark Masters' },
-    { id: 4, description: 'Tech Event 4', heading: 'Mech Bermuda' },
-    { id: 5, description: 'Tech Event 5', heading: 'Mr. Lathe' },
-    { id: 6, description: 'Tech Event 6', heading: 'CAD Modelling' },
-    { id: 7, description: 'Tech Event 7', heading: 'CNC Conclave' },
-    { id: 8, description: 'Tech Event 8', heading: 'Auto Assembly' },
-    { id: 9, description: 'Tech Event 9', heading: 'Spell Bee' },
+    { id: 2, description: 'Engineering quiz featuring basic to advanced questions, timed answering, and a self-buzzer round for top performers to test knowledge and speed.', heading: 'Tech Quiz' },
+    { id: 3, description: 'Welding quiz featuring basic questions and a practical round for qualifiers to complete a welding task within 5 minutes, testing knowledge and skill.', heading: 'Spark Masters' },
+    { id: 4, description: 'Logo identification quiz followed by a self-buzzer round on \'Connection\' questions for top performers, testing brand recognition, logic, and quick thinking.',  heading: 'Mech Bermuda' },
+    { id: 5, description: 'Manufacturing quiz with basic questions followed by a practical round where participants perform machining operations on a Lathe within a set time.', heading: 'Mr. Lathe' },
+    { id: 6, description: 'Engineering Graphics quiz with basic questions followed by a practical round where participants create a design in CATIA within a set time.', heading: 'CAD Modelling' },
+    { id: 7, description: 'G code and M code quiz with basic questions followed by a practical round where participants write and simulate code within a set time.', heading: 'CNC Conclave' },
+    { id: 8, description: 'Automobile engineering quiz followed by a practical round where participants assemble a partially dismantled part in minimal time.', heading: 'Auto Assembly' },
+    { id: 9, description: 'Spelling quiz with easier words in Round 1, followed by harder words in Round 2, where participants spell words based on images.', heading: 'Spell Bee' },
   ];
 
   const nonTechEvents = [
