@@ -270,7 +270,7 @@ font-family: "space mono", sans-serif;
         background-position: center;
         background-size: cover;
         min-height: auto; 
-        height: 650px;/* Allow content to dictate height */
+        height: 100vh;/* Allow content to dictate height */
     }
 
     .home-content1{
