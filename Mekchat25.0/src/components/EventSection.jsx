@@ -24,14 +24,18 @@ const EventSection = () => {
 
   return (
     <div className="event-section">
-      <h2 className="event-heading">Tech Events</h2>
+      <div className="mhead-container">
+          <h2 className="event-heading" id='mekchat-underline'>Tech Events</h2>
+        </div>
       <div className="card-grid">
         {techEvents.map(event => (
           <NeonCard key={event.id} description={event.description} heading={event.heading} />
         ))}
       </div>
 
-      <h2 className="event-heading">Non-Tech Events</h2>
+      <div className="mhead-container">
+          <h2 className="event-heading" id='mekchat-underline'>Non-Tech Events</h2>
+      </div>
       <div className="card-grid">
         {nonTechEvents.map(event => (
           <NeonCard key={event.id} description={event.description} heading={event.heading} />

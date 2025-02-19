@@ -9,7 +9,9 @@ import { Link } from "react-router-dom";
 const Workshop = () => {
   return (
     <div className='Workshop-container'>
-        <h1>Workshop</h1>
+        <div className="mhead-container">
+            <h1 className="event-heading" id='mekchat-underline'>Workshop</h1>
+        </div>
         <div className="workshop1">
             <h1>🚀IoT, Robotics & CNC in Modern Manufacturing</h1>
             <div className="inner-c1">

@@ -27,7 +27,7 @@
 }
 
 .workshop1, .workshop2{
-    padding: 35px 10px;
+    padding: 10px 10px;
 }
 
 .inner-c1{
@@ -64,6 +64,31 @@
     text-align: center;
     width: 100%;
     padding: 10px 0px;
+}
+
+.mhead-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+#mekchat-underline{
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline;
+}
+
+#mekchat-underline::after{
+    content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(270deg, #0ff 0%, rgb(15, 132, 132) 100%);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
 }
 
 @media(max-width: 768px){
