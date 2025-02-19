@@ -62,7 +62,7 @@ body {
 
 
 .event-section {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   width: 100%; /* Ensure full width of section */
 }
 
@@ -96,7 +96,7 @@ body {
   }
 
   .event-section{
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
   }
 
   .events-wrapper{

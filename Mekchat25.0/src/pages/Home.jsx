@@ -7,6 +7,8 @@ import Header from "../components/Header";
 import { FaTimes } from "react-icons/fa";
 import EventSection from "../components/EventSection";
 import mech from "../assets/mekchat-logo.png"
+import Ewaste from "../components/Ewaste";
+import Workshop from "../components/Workshop";
 
 const Home = () => {
   const [number, setNumber] = useState(20);
@@ -150,6 +152,8 @@ const Home = () => {
         </div>
       )}
       <EventSection/>
+      <Workshop/>
+      <Ewaste/>
       <Footer />
     </>
   );

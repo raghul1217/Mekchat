@@ -50,31 +50,20 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#clubs" onClick={() => handleLinkClick("/#clubs")}>
-                Clubs
-              </a>
-            </li>
-            <li>
               <a href="#events" onClick={() => handleLinkClick("/#events")}>
                 Events
               </a>
             </li>
-            
-            {/* <li>
-              <a href="#profile" onClick={() => handleLinkClick("/profile")}>
-                Profile
+            <li>
+              <a href="#workshop" onClick={() => handleLinkClick("/#events")}>
+                Workshop
               </a>
             </li>
             <li>
-              <a href="#register" onClick={() => handleLinkClick("/register")}>
-                Register
+              <a href="#ewaste" onClick={() => handleLinkClick("/#events")}>
+                E-waste
               </a>
             </li>
-            <li> */}
-              {/* <a href="#payment" onClick={() => handleLinkClick("/payment")}>
-                Payment
-              </a>
-            </li> */}
             <li>
               <a href="#footer" onClick={() => handleLinkClick("/#footer")}>
                 Contact
@@ -91,7 +80,7 @@ function Header() {
                 </button>
               </li>
             ) : (
-              <button className="custom-btn btn-12" onClick={() => window.open("https://drive.google.com/drive/folders/10rg6bsXhj8f7FAUODSHTb_Nil_ho9SYz", "_blank")}>
+              <button className="mr-custom-btn1 mr-btn-12" onClick={() => window.open("https://drive.google.com/drive/folders/10rg6bsXhj8f7FAUODSHTb_Nil_ho9SYz", "_blank")}>
                 <span className="logout-span" id="header-btn">
                   <i className="fas fa-download"></i> Rulebook
                 </span>

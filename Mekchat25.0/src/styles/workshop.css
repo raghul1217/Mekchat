@@ -1,0 +1,108 @@
+.Workshop-container{
+    background-color: #000814;
+    padding: 20px 30px ;
+}
+
+.Workshop-container h1{
+    text-align: center;
+    font-family: "Alphacentauri";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.workshop1 h1{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 18px;
+}
+
+.workshop2 h1{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 18px;
+}
+
+.workshop1, .workshop2{
+    padding: 35px 10px;
+}
+
+.inner-c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.inner-c1 .w-content1{
+    flex: 1.5;
+}
+
+.inner-c1 .w-content2{
+    flex: 1;
+}
+
+.inner-c1 .w-content2 img{
+    width: 500px;
+    height: 300px;
+    border-radius: 12px;
+}
+
+.inner-c1 .w-content2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-c1 p{
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+@media(max-width: 768px){
+
+    .Workshop-container{
+        padding: 20px 5px;
+    }
+
+    .Workshop-container h1{
+        font-size: 30px;
+    }
+    .inner-c1{
+        flex-direction: column-reverse;
+        padding: 20px 0px;
+    }
+
+    .workshop2 h1, .workshop1 h1{
+        font-size: 21px;
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+
+    .workshop2 h1{
+        padding-bottom: 0px;
+    }
+
+    .inner-c1 .w-content2 img{
+        width: 400px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .inner-c1 p{
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    .workshop2 .inner-c1{
+        flex-direction: column;
+    }
+
+}
