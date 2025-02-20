@@ -8,7 +8,10 @@ const MechRegiser = () => {
     <div className="hole">
         <Header/>
         <div className='mr-container'>
-        <h1 className='mr-main-head'>Registration</h1>
+        <div className="mhead-container">
+          <h2 className="event-heading" id='mekchat-underline'>Registration</h2>
+        </div>
+        {/* <h1 className='mr-main-head'>Registration</h1> */}
         <div className="mr-content">
         <div className="mr-tech">
             <h1>🚀Events</h1>

@@ -23,7 +23,7 @@ const EventSection = () => {
   ];
 
   return (
-    <div className="event-section">
+    <div className="event-section" id='events'>
       <div className="mhead-container">
           <h2 className="event-heading" id='mekchat-underline'>Tech Events</h2>
         </div>

@@ -5,7 +5,7 @@ import "../styles/ewsate.css";
 
 const Ewaste = () => {
   return (
-    <div className="ewaste-container">
+    <div className="ewaste-container" id="ewaste">
       <div className="mhead-container">
             <h1 className="event-heading" id='mekchat-underline'>E-Waste Management</h1>
         </div>

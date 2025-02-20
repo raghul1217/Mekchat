@@ -9,13 +9,25 @@
   }
 
 .home-bg {
-    background: url(../assets/bg23.png);
     /* background-color: #000814; */
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../assets/mechbg2.webp);
     background-size: cover;
     background-position: center;
-    min-height: 100vh; /* Use min-height to allow content to dictate height */
-    display: flex;
-    flex-direction: column; /* Ensure vertical layout on mobile */
+    opacity: 0.3; /* Adjust opacity as needed */
+    z-index: -1; /* Ensure it stays behind content */
 }
 
 .home-container {
@@ -266,7 +278,7 @@ font-family: "space mono", sans-serif;
 @media (max-width: 768px) {
 
     .home-bg {
-        background: url(../assets/figbg9.png);
+        /* background: url(../assets/figbg9.png); */
         background-position: center;
         background-size: cover;
         min-height: auto; 
@@ -285,7 +297,7 @@ font-family: "space mono", sans-serif;
         padding: 20px 10px; /* Reduce padding */
         min-height: 100vh;
         padding-top: 0; 
-        margin-top: -25px;/* Allow content to fill screen */
+        margin-top: -10px;/* Allow content to fill screen */
     }
 
     .home-container .home-content1 img {

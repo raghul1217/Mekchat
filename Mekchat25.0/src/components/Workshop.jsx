@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Workshop = () => {
   return (
-    <div className='Workshop-container'>
+    <div className='Workshop-container' id='workshop'>
         <div className="mhead-container">
             <h1 className="event-heading" id='mekchat-underline'>Workshop</h1>
         </div>

@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: start;
   padding: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Three columns for desktop */
@@ -23,6 +24,7 @@
   align-items: flex-start;
   flex-direction: column;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -31,6 +33,7 @@
   font-size: 1.5em;
   margin-bottom: 15px;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .left-side h4::after, .center-section h4::after {
@@ -51,17 +54,19 @@
   gap: 10px;
   width: 100%;
   padding: 0px 50px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .center-section{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Contact numbers and social icons alignment */
 .contact-numbers {
-  width: 85%;
+  width: 70%;
 }
 
 .people-contact {
@@ -70,6 +75,7 @@
   align-items: center;
   font-size: 16px;
   margin: 8px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .people-contact .align1 {
@@ -77,12 +83,23 @@
   gap: 5px;
   align-items: center;
   flex: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.people-contact .align1 p{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .people-contact .align2 {
   display: flex;
   flex: 1;
   justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.people-contact .align2 p{
+  font-family: 'Montserrat', sans-serif;
 }
 
 .social-icons {
@@ -100,6 +117,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .social-icons .social-icons-div a {
@@ -107,6 +125,7 @@
   font-size: 26px;
   font-weight: 900;
   position: absolute;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Quick Links styles */
@@ -115,6 +134,7 @@
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .center-section ul li {
@@ -125,6 +145,7 @@
   color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .center-section ul li a:hover {
@@ -142,6 +163,7 @@
 .contact-image-container p {
   margin-bottom: 10px;
   font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #location-icon {
@@ -159,6 +181,7 @@
 .footer-bottom {
   text-align: center;
   margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-p {
@@ -173,6 +196,7 @@
 .footer-p a{
   color: rgb(0, 94, 255);
   text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .footer-bottom hr {
@@ -235,6 +259,7 @@
     flex: 1;
     justify-content: flex-end;
   }
+
 }
 
 @media (max-width: 320px){
