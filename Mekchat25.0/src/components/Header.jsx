@@ -80,7 +80,7 @@ function Header() {
                 </button>
               </li>
             ) : (
-              <button className="mr-custom-btn1 mr-btn-12" onClick={() => window.open("https://drive.google.com/drive/folders/10rg6bsXhj8f7FAUODSHTb_Nil_ho9SYz", "_blank")}>
+              <button className="mr-custom-btn1 mr-btn-12" onClick={() => window.open("https://drive.google.com/drive/folders/1-BClGucZk0hlfflEhC_y2etM4RLpDy1b", "_blank")}>
                 <span className="logout-span" id="header-btn">
                   <i className="fas fa-download"></i> Rulebook
                 </span>

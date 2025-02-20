@@ -48,17 +48,17 @@ const Footer = () => {
 
           <div className="social-icons">
             <div className="social-icons-div">
-            <a href="https://www.instagram.com/progeni25/profilecard/?igsh=d280emlncG82eXN3" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/mekchat_24.0?igsh=MWZiN3hzamJncm02cg==" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram}/>
             </a>
             </div>
             <div className="social-icons-div">
-            <a href="https://wa.me/918220634803" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/7094024969" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faWhatsapp} />
             </a>
             </div>
             <div className="social-icons-div">
-            <a href="mailto:progeni25.0cse@gmail.com">
+            <a href="mailto:gcesalemmekchat25@gmail.com">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
             </div>
@@ -70,10 +70,12 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul>
             <li><a to="#home">Home</a></li>
-            <li><a href="#clubs" >Clubs</a></li>
+            <li><a href="#workshop" >workshop</a></li>
+            <li><a href="#ewaste" >E-waste</a></li>
             <li><a href="#events" >Events</a></li>
-            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2pJ-8mqd92tvxI4Dv_883YsJ38sFp7gvHqko7W4XMFmJUzg/viewform" target='_blank'>Register</a></li>
-            <li><a href="https://drive.google.com/drive/folders/10rg6bsXhj8f7FAUODSHTb_Nil_ho9SYz" target='_blank'>Rulebook</a></li>
+            {/* <li><a href="#events" >Register</a></li> */}
+            {/* <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2pJ-8mqd92tvxI4Dv_883YsJ38sFp7gvHqko7W4XMFmJUzg/viewform" target='_blank'>Register</a></li> */}
+            <li><a href="https://drive.google.com/drive/folders/1-BClGucZk0hlfflEhC_y2etM4RLpDy1b" target='_blank'>Rulebook</a></li>
           </ul>
         </div>
 
