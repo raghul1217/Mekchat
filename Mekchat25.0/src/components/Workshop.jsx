@@ -30,7 +30,7 @@ const Workshop = () => {
             </div>
         </div>
         <div className="workshop2">
-        <h1>🚀V6 Engine design using Solidworks</h1>
+        <h1>🚀V6 Engine design using Catia</h1>
             <div className="inner-c1">
             <div className="w-content2">
                 <img src={work3} alt="ewaste" />
