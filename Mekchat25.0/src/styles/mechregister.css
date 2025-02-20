@@ -1,11 +1,6 @@
-
-
-/* .mr-container{
-    background: url(../assets/mechbg2.webp);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-} */
+body{
+    font-family: "Montserrat";
+}
 
 .mr-container {
     /* background-color: #000814; */
@@ -13,6 +8,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat";
 }
 
 .mr-container::before {
@@ -36,10 +32,10 @@ button {
 }
 .mr-custom-btn1 {
     width: 110px;
-    height: 30px;
+    height: 35px;
     color: #fff;
     border-radius: 3px;
-    padding: 0; /* Remove padding to avoid shifting the text */
+    padding: 5px 8px; /* Remove padding to avoid shifting the text */
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     background: transparent;
@@ -115,6 +111,57 @@ button {
     padding-top: 8px;
 }
 
+/* .mr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.mr-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Montserrat";
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.mr-tech h1, .mr-workshop h1, .mr-ewaste h1{
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mr-tech p, .mr-workshop p, .mr-ewaste p{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#mr-head{
+    margin-top: 80px;
+}
+
+#mr-head h2{
+    font-size: 35px;
+}
+
+.mr-workshop, .mr-tech, .mr-ewaste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#pay-note{
+    padding-top: 20px;
+}
+
 
 
 @media(max-width: 480px){
@@ -122,8 +169,8 @@ button {
         /* background: url(../assets/figbg9.png); */
         background-size: cover;
         background-position: center;
-        height: 120vh;
-        padding: 20px 10px;
+        height: auto;
+        padding: 20px 5px;
         padding-top: 90px;
         }
 
@@ -155,5 +202,23 @@ button {
         justify-content: center;
         align-items: center;
         padding-top: 8px;
+    }
+
+    #mr-head{
+        margin-top: 0px;
+    }
+
+    #mr-head h2{
+        font-size: 30px;
+    }
+
+    .mr-tech h1, .mr-workshop h1, .mr-ewaste h1{
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .mr-tech p, .mr-workshop p, .mr-ewaste p{
+    font-size: 18px;
+    font-weight: 400;
     }
 }

@@ -97,7 +97,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="home-bg">
+      <div className="home-bg" id="home">
         <Header />
         
         <div className="home-container">

@@ -41,8 +41,8 @@
 }
 
 .navbar-head-progeni{
-    width: 25px;
-    height: 27px;
+    width: 20px;
+    height: 20px;
 }
 
 /* Nav Links */
@@ -236,7 +236,7 @@ button {
 
 
 /* Mobile view styles */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .nav-links {
         display: none;
         position: absolute;
@@ -244,6 +244,10 @@ button {
         left: 0;
         width: 100%;
         text-align: center;
+    }
+
+    .navbar{
+        padding: 3px 12px;
     }
 
     .nav-links.active {
@@ -301,6 +305,11 @@ button {
 
     .nav-links {
         display: flex;
+    }
+
+    .navbar-head-progeni{
+        width: 80px;
+        height: 35px;
     }
 }
 
