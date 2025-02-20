@@ -151,9 +151,9 @@ const Home = () => {
           </div>
         </div>
       )}
-      <EventSection/>
       <Workshop/>
       <Ewaste/>
+      <EventSection/>
       <Footer />
     </>
   );
